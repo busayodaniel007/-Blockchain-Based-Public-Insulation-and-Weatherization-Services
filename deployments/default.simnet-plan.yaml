@@ -50,6 +50,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: asbestos-certification
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/asbestos-certification.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: insulation-licensing
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/insulation-licensing.clar
